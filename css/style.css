@@ -1,0 +1,133 @@
+a, a:hover, a:focus{
+	text-decoration: none;
+	color: inherit;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+body{
+	min-width: 320px;
+}
+img{
+	max-width: 100%;
+}
+
+.header{
+	height: 100vh;
+	background-color: #18bc9c;
+}
+.header_cover{
+	text-align: center;
+	padding-top: 170px;
+	color: #fff;
+}
+.header .navbar{
+	position: fixed;
+	width: 100%;
+}
+.header .image{
+	border-radius: 50%;
+	overflow: hidden;
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+.header .image img{
+	object-fit: cover;
+	width: 100%;
+	/*object-position: 0 -5px;*/
+}
+.header_cover .name{
+	text-transform: uppercase;
+	font-size: 80px;
+	margin: 20px 0;
+}
+.fa-star{
+	font-size: 30px;
+}
+.portfolio_star:after,
+.portfolio_star:before{
+	content: '';
+	display: block;
+	border-top: 5px solid transparent;
+	border-color: inherit;
+	width: 100px;
+}
+.portfolio_star{
+	display: inline-flex;
+	align-items: center;
+}
+.portfolio_star i{
+	margin: 0 20px;
+}
+.header_cover .skills{
+	/*ttc*/
+	text-transform: capitalize;
+	font-size: 25px;
+}
+
+.portfolio{
+	padding: 80px 0;
+}
+.portfolio .title{
+	font-size: 50px;
+	/*ttu*/
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.portfolio  .portfolio_star{
+	margin-bottom: 30px;
+}
+.portfolio__link{
+	height: 300px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.portfolio__link img{
+	height: 100%;
+	object-fit: cover;
+	transition: .3s;
+	width: 100%;
+}
+.portfolio__link:hover img{
+	/*trf*/
+	transform: scale(1.1);
+}
+.portfolio__link .caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	transition: .3s;
+	display: flex;
+	top: 0;
+}
+.portfolio__link:hover .caption{
+	background-color: rgba(24, 188, 156, .7);
+	transform: perspective(500px) rotateY(-65deg);
+	transform-origin: right;
+}
+.portfolio__link .caption i{
+	font-size: 70px;
+	color: #fff;
+	margin: auto;
+	opacity: 0;
+	/*transition: .3s;*/
+}
+.portfolio__link:hover .caption i{
+	opacity: 1;
+	animation-name: eye_anime;
+	animation-duration: .5s;
+}
+
+@keyframes eye_anime{
+	0%{
+		transform: rotateY(-450deg);
+	}
+	100%{
+		transform: rotateY(450deg);
+	}
+}
