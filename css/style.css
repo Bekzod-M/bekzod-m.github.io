@@ -44,6 +44,9 @@ img{
 	font-size: 25px;
 	margin: 20px 0;
 }
+.nav-item{
+	text-transform: uppercase;
+}
 .fa-star{
 	font-size: 30px;
 }
