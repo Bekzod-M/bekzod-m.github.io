@@ -40,8 +40,8 @@ img{
 	/*object-position: 0 -5px;*/
 }
 .header_cover .name{
-	text-transform: uppercase;
-	font-size: 80px;
+	text-transform: capitalize;
+	font-size: 25px;
 	margin: 20px 0;
 }
 .fa-star{
