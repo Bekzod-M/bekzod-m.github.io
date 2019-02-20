@@ -44,6 +44,9 @@ img{
 	font-size: 25px;
 	margin: 20px 0;
 }
+.text-center {
+    margin-bottom: 60px;
+}
 .nav-item{
 	text-transform: uppercase;
 }
