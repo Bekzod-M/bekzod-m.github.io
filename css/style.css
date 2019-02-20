@@ -85,10 +85,11 @@ img{
 	margin-bottom: 30px;
 }
 .portfolio__link{
-	height: 300px;
+	height: 181px;
 	display: block;
 	overflow: hidden;
 	position: relative;
+	margin-bottom: 30px;
 }
 .portfolio__link img{
 	height: 100%;
