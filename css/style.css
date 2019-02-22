@@ -45,6 +45,9 @@ img{
 	font-size: 25px;
 	margin: 20px 0;
 }
+.navbar-brand{
+	text-transform: uppercase;
+}
 .text-center {
     margin-bottom: 60px;
 }
