@@ -27,6 +27,7 @@ img{
 .header .navbar{
 	position: fixed;
 	width: 100%;
+	z-index: 7;
 }
 .header .image{
 	border-radius: 50%;
