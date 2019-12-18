@@ -16,8 +16,9 @@ img{
 }
 
 .header{
-	height: 100vh;
+	height: auto;
 	background-color: #18bc9c;
+	padding-bottom: 60px;
 }
 .header_cover{
 	text-align: center;
